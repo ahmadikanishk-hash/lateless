@@ -1854,8 +1854,8 @@
             const promptText = `Provide real-time public transit status and delay updates for travel from "${from}" to "${to}" on date ${date} at ${time}. Respond in ${currentLang} language. Format clearly with route line numbers, delay status (in minutes), and alternate options if delayed.`;
 
             try {
-                const apiKey = "AQ.Ab8RN6IVp75d61fESYHBQKX-DNVJrK-ez-I2Y3yxZhky9rOMUg";
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+                const apiKey = "AQ.Ab8RN6KyUsms4eWkhPFUsVZalv4Iymqxvc3ML3lGv0yBCUSRow";
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
@@ -1969,8 +1969,8 @@
             chatWin.scrollTop = chatWin.scrollHeight;
 
             try {
-                const apiKey = "AQ.Ab8RN6IVp75d61fESYHBQKX-DNVJrK-ez-I2Y3yxZhky9rOMUg";
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+                const apiKey = "AQ.Ab8RN6KyUsms4eWkhPFUsVZalv4Iymqxvc3ML3lGv0yBCUSRow";
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
